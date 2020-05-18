@@ -1,0 +1,51 @@
+/* basic */
+
+html {
+    font-family: sans-serif;
+    background-color: #F0F0F0;
+    border: none;
+    margin: none;
+    padding: none;
+}
+
+html :hover {
+    background-color: beige;
+}
+
+/* tekst */
+
+h1 {
+    font-size: .5em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+p {
+    font-size: .8em;
+}
+
+/* svg */
+
+svg {
+    transform-origin: center;
+    margin: auto;
+    width: 100%;
+}
+
+#Cirkel_2_:hover {
+    fill: #B4241A;
+    opacity: 1;
+    transform-origin: center;
+}
+
+#Ovaal_2_:hover {
+    width: 200px;
+    transform-origin: center;
+}
+
+/*
+    width: 200%;
+    transform-origin: center;
+*/
