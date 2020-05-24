@@ -8,21 +8,22 @@
 
 html {
     font-family: sans-serif;
-    background-color: #F0F0F0;
-    border: none;
-    margin: none;
-    padding: none;
-}
-
-html :hover {
     background-color: beige;
+    border: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* tekst */
 
 h1 {
     font-size: .5em;
-    margin: 5em 0 0 5em;
+    padding: 5em 0 0 5em;
+}
+
+h1:hover {
+    color: #B4241A;
+    font-weight: 100;
 }
 
 h2 {
@@ -44,6 +45,8 @@ p {
 }
 
 
+
+
 /* svg */
 
 svg {
@@ -58,22 +61,53 @@ svg {
     animation: dash 5s linear forwards;
 }
 
-@keyframes dash {
-    to {
-        stroke-dashoffset: 0;
-    }
+#Cirkel_4_:hover {
+    stroke: #B4241A;
+    opacity: 1;
+    transform-origin: center;
 }
 
 #Drum-lijn_1_:hover {
     stroke-dasharray: 10;
     animation: dash 20s linear;
+    cursor: help;
 }
-
-
 
 #Ovaal_3_:hover {
     stroke-dasharray: 100;
     animation: dash 20s linear;
+    stroke: #E29F3B;
+    cursor: s-resize;
+}
+
+#Ovaal_2_:hover {
+    width: 200px;
+    transform-origin: 100% 60%;
+}
+
+
+#stip_1_1_:hover {
+    transform: scale(1.2);
+    transform-origin: 100% 60%;
+    fill: #4A7645;
+}
+
+#stip_2_1_:hover {
+    transform: scale(1.2);
+    transform-origin: 100% 60%;
+    fill: #4A7645;
+}
+
+#streep_2_1_:hover {
+    stroke: #001773;
+}
+
+#streep_1_2_:hover {
+    stroke: #001773;
+}
+
+#streep_3_2_:hover {
+    stroke: #001773;
 }
 
 @keyframes dash {
@@ -82,18 +116,27 @@ svg {
     }
 }
 
-/*
-#Cirkel_1_:hover {
-    fill: #B4241A;
-    opacity: 1;
-    transform-origin: center;
-}
-*/
 
-#Ovaal_2_:hover {
-    width: 200px;
-    transform-origin: center;
+
+/*media query*/
+
+/* On screens that are 992px or less, set the background color to blue */
+
+@media screen and (max-width: 992px) {
+    body {
+        background-color: blue;
+    }
 }
+
+/* On screens that are 600px or less, set the background color to olive */
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: olive;
+    }
+}
+
+/* code kerkhof */
 
 /*
 
@@ -121,3 +164,5 @@ svg {
         background-color: black;
     }
 }
+
+*/
