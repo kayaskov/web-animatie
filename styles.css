@@ -120,20 +120,25 @@ svg {
 
 /*media query*/
 
-/* On screens that are 992px or less, set the background color to blue */
+/* On screens that are 992px or less*/
 
 @media screen and (max-width: 992px) {
     body {
-        background-color: blue;
+        background-color: #f4f4e3;
     }
 }
 
-/* On screens that are 600px or less, set the background color to olive */
+/* On screens that are 600px or less*/
 
 @media screen and (max-width: 600px) {
     body {
-        background-color: olive;
+        background-color: #ddcfcc;
     }
+
+    .tekst {
+        display: none;
+    }
+
 }
 
 /* code kerkhof */
