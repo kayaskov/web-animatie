@@ -1,5 +1,11 @@
 /* basic */
 
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
 html {
     font-family: sans-serif;
     background-color: #F0F0F0;
@@ -16,15 +22,27 @@ html :hover {
 
 h1 {
     font-size: .5em;
+    margin: 5em 0 0 5em;
 }
 
 h2 {
     font-size: 1em;
+    margin: 1em;
 }
 
 p {
     font-size: .8em;
+    margin: 1em 0;
 }
+
+.tekst {
+    display: grid;
+    grid-template-columns: 50px 2fr 3fr 3fr;
+    grid-column-gap: 1em;
+    margin: 10em 0;
+    padding: 0 15em;
+}
+
 
 /* svg */
 
@@ -34,11 +52,43 @@ svg {
     width: 100%;
 }
 
-#Cirkel_2_:hover {
+#Cirkel_1_ {
+    stroke-dasharray: 10000;
+    stroke-dashoffset: 10000;
+    animation: dash 5s linear forwards;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+#Drum-lijn_1_:hover {
+    stroke-dasharray: 10;
+    animation: dash 20s linear;
+}
+
+
+
+#Ovaal_3_:hover {
+    stroke-dasharray: 100;
+    animation: dash 20s linear;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 1000;
+    }
+}
+
+/*
+#Cirkel_1_:hover {
     fill: #B4241A;
     opacity: 1;
     transform-origin: center;
 }
+*/
 
 #Ovaal_2_:hover {
     width: 200px;
@@ -46,6 +96,28 @@ svg {
 }
 
 /*
-    width: 200%;
-    transform-origin: center;
-*/
+
+#Drum_1_:hover {
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 4s;
+    background-color: white;
+}
+
+@keyframes myanimation {
+    0% {
+        background-color: white;
+    }
+    25% {
+        background-color: red;
+    }
+    50% {
+        background-color: green;
+    }
+    75% {
+        background-color: blue;
+    }
+    100% {
+        background-color: black;
+    }
+}
