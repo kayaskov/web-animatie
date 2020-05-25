@@ -17,17 +17,7 @@ Het werk deed, voornamelijk door de kleur en vormen, mij denken aan van de tafel
 
 ## De animaties
 
-Desktop:
-* Wanneer de pagina opstart verschijnt de grote cirkel door een soort van load effect in beeld.
-    #Cirkel_4_ {
-    stroke-dasharray: 10000;
-    stroke-dashoffset: 10000;
-    animation: dash 5s linear forwards;
-}
-
-@keyframes dash {
-    to {
-        stroke-dashoffset: 1000;
-    }
-}
+###Desktop:
+* Wanneer de pagina opstart verschijnt de grote cirkel door een soort van load effect in beeld. Dit heb ik gedaan door een stroke-dasharray en stroke-dashoffset met een animatie te maken.
+*
 
