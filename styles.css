@@ -45,6 +45,15 @@ p {
     padding: 10em 15em;
 }
 
+/* audio */
+
+audio {
+    position: absolute;
+    z-index: 4;
+    right: 2.5rem;
+    top: 2.5rem;
+    width: 15em;
+}
 
 /* svg */
 
@@ -192,7 +201,7 @@ svg {
     }
 
     svg {
-        margin: -8em 0;
+        margin: -2em 0;
     }
 
 }
