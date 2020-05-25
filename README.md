@@ -17,7 +17,7 @@ Het werk deed, voornamelijk door de kleur en vormen, mij denken aan van de tafel
 
 ## De Interacties
 ![afbeelding van page](scherm.png)
-![afbeelding van page mobile](screen.png)
+![afbeelding van page mobile](screen.jpeg)
 
 ### Desktop:
 * Wanneer de pagina opstart verschijnt de grote cirkel door een soort van load effect in beeld. Dit heb ik gedaan door een stroke-dasharray en stroke-dashoffset met een animatie te maken.
