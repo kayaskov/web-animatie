@@ -91,7 +91,7 @@ svg {
 }
 
 .effect3 {
-
+/* background effect toegevoegd met https: //leaverou.github.io/css3patterns*/
     background: linear-gradient(beige 50%, rgba(255, 255, 255, 0) 0) 0 0,
     radial-gradient(circle closest-side, beige 53%, rgba(255, 255, 255, 0) 0) 0 0,
     radial-gradient(circle closest-side, beige 50%, rgba(255, 255, 255, 0) 0) 55px 0 #001773;
