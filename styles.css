@@ -15,6 +15,7 @@ html {
     cursor: copy;
 }
 
+
 /* tekst */
 
 h1 {
@@ -54,7 +55,7 @@ svg {
     width: 100%;
 }
 
-#Cirkel_1_ {
+#Cirkel_4_ {
     stroke-dasharray: 10000;
     stroke-dashoffset: 10000;
     animation: dash 5s linear forwards;
@@ -69,7 +70,7 @@ svg {
 
 #Drum-lijn_1_:hover {
     stroke-dasharray: 10;
-    animation: dash 20s linear;
+    animation: dash 10s linear;
     cursor: help;
 }
 
@@ -171,6 +172,10 @@ svg {
 
     .tekst {
         display: none;
+    }
+
+    svg {
+        margin: -8em 0;
     }
 
 }
