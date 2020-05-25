@@ -42,8 +42,7 @@ p {
     display: grid;
     grid-template-columns: 50px 2fr 3fr 3fr;
     grid-column-gap: 1em;
-    margin: 10em 0;
-    padding: 0 15em;
+    padding: 10em 15em;
 }
 
 
@@ -80,6 +79,23 @@ svg {
 
 .effect2 {
     background-color: #B4241A;
+}
+
+.effect3 {
+
+    background: linear-gradient(beige 50%, rgba(255, 255, 255, 0) 0) 0 0,
+    radial-gradient(circle closest-side, beige 53%, rgba(255, 255, 255, 0) 0) 0 0,
+    radial-gradient(circle closest-side, beige 50%, rgba(255, 255, 255, 0) 0) 55px 0 #001773;
+    background-size: 110px 70em;
+    background-repeat: repeat-x;
+}
+
+.effect4 {
+    background-color: #001773;
+}
+
+.effect5 {
+    background-color: #4A7645;
 }
 
 #Ovaal_3_:hover {
