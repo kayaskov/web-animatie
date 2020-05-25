@@ -15,7 +15,7 @@ Het werk deed, voornamelijk door de kleur en vormen, mij denken aan van de tafel
 
 ![afbeelding van motoriek tafel](motoriek.jpg)
 
-## De animaties
+## De interacties
 ![afbeelding van page](scherm.png)
 
 ### Desktop:
