@@ -1,11 +1,11 @@
-# web animatie
+# Web Animatie
 
 De link naar mijn page: https://kayaskov.github.io/web-animatie/
 
-## De opdracht
+## De Opdracht
 Bij de Minor Visual Interface Design aan de Hogeschool van Amsterdam werd mij gevraagd om voor het vak Web Animaties een kunstwerk naar keuze te animeren door middel van HTML/CSS en een beetje Javascript.
 
-## Het kunstwerk
+## Het Kunstwerk
 Ik heb voor deze opdracht gekoven voor een advertentie ontworpen door Paul Rand in 1962. Het was een advertentie voor verschillende designers voor het buro Westinghouse in de US wat toen net ging beginnen. Paul Rand was de eerste designer die er was aangenomen en mocht dus de advertentie maken. Ik vind de stijl van Paul Rand super interessant.
 ![afbeelding van paul rand](LfA_Rand_0092_001.jpg)
 
@@ -15,7 +15,7 @@ Het werk deed, voornamelijk door de kleur en vormen, mij denken aan van de tafel
 
 ![afbeelding van motoriek tafel](motoriek.jpg)
 
-## De interacties
+## De Interacties
 ![afbeelding van page](scherm.png)
 
 ### Desktop:
@@ -34,3 +34,7 @@ Het werk deed, voornamelijk door de kleur en vormen, mij denken aan van de tafel
 * Door een media query heb ik bij mobiel een notitieblok achtige achtergrond toegevoegd. Door blauwe lijnen in de background te zetten.
 * Als laatste heb ik de tekst op kleinere schermen laten verdwijnen omdat ik het niet nodig vond dat je moet scrollen voor de tekst. 
 
+## Bronnen
+
+* SVG lijn animatie: https://css-tricks.com/svg-line-animation-works/
+* achtergronden: https://leaverou.github.io/css3patterns/
