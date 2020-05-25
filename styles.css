@@ -12,6 +12,7 @@ html {
     border: none;
     margin: 0;
     padding: 0;
+    cursor: copy;
 }
 
 /* tekst */
@@ -63,6 +64,7 @@ svg {
     stroke: #B4241A;
     opacity: 1;
     transform-origin: center;
+    cursor: wait;
 }
 
 #Drum-lijn_1_:hover {
@@ -72,44 +74,66 @@ svg {
 }
 
 .effect {
-    background-color: orange;
+    background-color: #E29F3B;
+}
+
+.effect2 {
+    background-color: #B4241A;
 }
 
 #Ovaal_3_:hover {
     stroke-dasharray: 100;
     animation: dash 20s linear;
     stroke: #E29F3B;
+    cursor: e-resize;
+}
+
+
+#stip_1_1_ {
     cursor: s-resize;
 }
 
-#Ovaal_2_:hover {
-    width: 200px;
-    transform-origin: 100% 60%;
+#stip_2_1_ {
+    cursor: s-resize;
 }
-
 
 #stip_1_1_:hover {
     transform: scale(1.2);
     transform-origin: 100% 60%;
     fill: #4A7645;
+    cursor: s-resize;
 }
 
 #stip_2_1_:hover {
     transform: scale(1.2);
     transform-origin: 100% 60%;
     fill: #4A7645;
+    cursor: s-resize;
 }
 
 #streep_2_1_:hover {
     stroke: #001773;
+    cursor: n-resize;
 }
 
 #streep_1_2_:hover {
     stroke: #001773;
+    cursor: n-resize;
 }
 
 #streep_3_2_:hover {
     stroke: #001773;
+    cursor: n-resize;
+}
+
+.key {
+    /* background effect toegevoegd met https://leaverou.github.io/css3patterns/#carbon-fibre*/
+    background: radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+    background-color: #282828;
+    background-size: 16px 16px;
 }
 
 @keyframes dash {
