@@ -45,8 +45,6 @@ p {
 }
 
 
-
-
 /* svg */
 
 svg {
@@ -71,6 +69,10 @@ svg {
     stroke-dasharray: 10;
     animation: dash 20s linear;
     cursor: help;
+}
+
+.effect {
+    background-color: orange;
 }
 
 #Ovaal_3_:hover {
@@ -117,14 +119,18 @@ svg {
 }
 
 
-
 /*media query*/
 
 /* On screens that are 992px or less*/
 
 @media screen and (max-width: 992px) {
+
     body {
-        background-color: #f4f4e3;
+        background-color: #f7e7ce;
+    }
+
+    .tekst {
+        display: none;
     }
 }
 
@@ -132,7 +138,11 @@ svg {
 
 @media screen and (max-width: 600px) {
     body {
-        background-color: #ddcfcc;
+        /*https://leaverou.github.io/css3patterns/#lined-paper*/
+        background-color: beige;
+        background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+        linear-gradient(#eee .1em, transparent .1em);
+        background-size: 100% 1.2em;
     }
 
     .tekst {
