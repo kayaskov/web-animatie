@@ -20,17 +20,17 @@ Het werk deed, voornamelijk door de kleur en vormen, mij denken aan van de tafel
 
 ### Desktop:
 * Wanneer de pagina opstart verschijnt de grote cirkel door een soort van load effect in beeld. Dit heb ik gedaan door een stroke-dasharray en stroke-dashoffset met een animatie te maken.
-* Een mp3 play control staat rechts boven in de hoek. Ik heb gekozen voor een liedje van the Kinks die in 1962 hoog in de playlist stond. Dit is geen animatie maar vond ik wel leuk om erbij toen voor de "motoriek tafel". Het helpt ook mee het gevoel van de vormgeving over te brengen.
-* hover over svg elementen kleur
-* hover over svg elementen dashed
-* hover over Paul Rand light
-* elke toets: donkere achtergrond
-* klikken op elementen change background color
-* klikken op drum = golven
-* verschillende mouse pointers
-* grid voor de tekst
+* Wanneer je over verschillende elementen van de svg hovert krijg je verschillende kleuren te zien. Ik heb de kleuren gebruikt die Paul rand in zijn andere werken gebruikt heeft.
+* Wanneer je over het "drumstickje" en de "ovaal" heen hovert zie je een bwegende stippellijn. Dit heb ik gedaan met een stroke-dasharray. Bij de ovaal heb dit met een borderradius en grote dashes gedaan en bij het stokje van de drumstick met kleine dashes en deze heb ik ook sneller laten gaan.
+* Wanneer je over de naam van Paul Rand hovert (links bovenin) dan wordt het font light en de kleur rood.
+* Wanneer je op een random key drukt wordt de achtergrond een soort van metaal achtig effect met een donkere kleur. 
+* Wanneer je op verschillende delen van de svg klikt krijgt je verschillende achtergrond kleuren.
+* Wanneer je op de drumstick klikt krijgt de background golven
+* Ik heb de mouse pointers overal veranderd om nog een extra dementie te geven met bv. cursor: e-resize;.
+* De tekst heb ik in grid in colommen verdeeld zodat het overeen komt met het kunstwerk.
+* Een mp3 play control staat rechts boven in de hoek. Ik heb gekozen voor een liedje van the Kinks die in 1962 hoog in de playlist stond. Dit heb ik erbij gedaan om het idee van de "motoriek tafel" te versterken. Het helpt ook mee het gevoel van de vormgeving over te brengen door de ouderwetse vibes.
 
 ### Mobiel
-* Door een media query papier achtergrond
-* tekst verdwijnt 
+* Door een media query heb ik bij mobiel een notitieblok achtige achtergrond toegevoegd. Door blauwe lijnen in de background te zetten.
+* Als laatste heb ik de tekst op kleinere schermen laten verdwijnen omdat ik het niet nodig vond dat je moet scrollen voor de tekst. 
 
