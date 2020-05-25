@@ -17,6 +17,7 @@ Het werk deed, voornamelijk door de kleur en vormen, mij denken aan van de tafel
 
 ## De animaties
 ![afbeelding van page](scherm.png)
+
 ### Desktop:
 * Wanneer de pagina opstart verschijnt de grote cirkel door een soort van load effect in beeld. Dit heb ik gedaan door een stroke-dasharray en stroke-dashoffset met een animatie te maken.
 * Een mp3 play control staat rechts boven in de hoek. Ik heb gekozen voor een liedje van the Kinks die in 1962 hoog in de playlist stond. Dit is geen animatie maar vond ik wel leuk om erbij toen voor de "motoriek tafel". Het helpt ook mee het gevoel van de vormgeving over te brengen.
@@ -27,6 +28,7 @@ Het werk deed, voornamelijk door de kleur en vormen, mij denken aan van de tafel
 * klikken op elementen change background color
 * klikken op drum = golven
 * verschillende mouse pointers
+* grid voor de tekst
 
 ### Mobiel
 * Door een media query papier achtergrond
