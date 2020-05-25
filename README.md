@@ -13,11 +13,22 @@ Link naar het orginele kunstwerk: http://oa.letterformarchive.org/item?workID=lf
 
 Het werk deed, voornamelijk door de kleur en vormen, mij denken aan van de tafels die bij de tandarts staan voor kinderen met van de gekleurde stalen buizen en kralen: een motoriek tafel. Het leek mij leuk om de gebruiker van mijn website uit te dagen om uit te zoeken wat er allemaal voor mogelijkheden zijn op de pagina.
 
-![afbeelding van paul rand](motoriek.jpg)
+![afbeelding van motoriek tafel](motoriek.jpg)
 
 ## De animaties
-
-###Desktop:
+![afbeelding van page](scherm.png)
+### Desktop:
 * Wanneer de pagina opstart verschijnt de grote cirkel door een soort van load effect in beeld. Dit heb ik gedaan door een stroke-dasharray en stroke-dashoffset met een animatie te maken.
-*
+* Een mp3 play control staat rechts boven in de hoek. Ik heb gekozen voor een liedje van the Kinks die in 1962 hoog in de playlist stond. Dit is geen animatie maar vond ik wel leuk om erbij toen voor de "motoriek tafel". Het helpt ook mee het gevoel van de vormgeving over te brengen.
+* hover over svg elementen kleur
+* hover over svg elementen dashed
+* hover over Paul Rand light
+* elke toets: donkere achtergrond
+* klikken op elementen change background color
+* klikken op drum = golven
+* verschillende mouse pointers
+
+### Mobiel
+* Door een media query papier achtergrond
+* tekst verdwijnt 
 
